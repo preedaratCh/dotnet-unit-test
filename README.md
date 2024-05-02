@@ -4,10 +4,12 @@
 
     ├── console-app
     │   ├── console-app.csproj
+    │   ├── console-app.sln
     │   ├── Program.cs             
     ├── unit-test
     │   ├── Program.cs 
     │   ├── unit-test.csproj
+    │   ├── unit-test.sln
     ├── .gitignore
     ├── README.md
 
@@ -16,7 +18,7 @@
 - [Usage](#usage)
 ## Installation
 ```bash
- git clone https://github.com/yourusername/yourproject.git
+ git clone https://github.com/preedaratCh/dotnet-unit-test.git
 ```
 ## Install dependencies
 ```bash
@@ -24,6 +26,7 @@
  dotnet restore
  cd ../unit-test
  dotnet restore
+ dotnet add reference ../console-app/console-app.csproj
  cd ../console-app
 ```
 ## Usage
